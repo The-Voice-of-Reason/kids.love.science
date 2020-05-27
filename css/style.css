@@ -410,3 +410,30 @@ li span {
 .badges a:hover {
   background-color: #ffd871;
 }
+
+
+.badge_page {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.badge_page a {
+  display: block;
+  flex: 1 0 0;
+  color: #136FA1;
+  text-align: center;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-left: 4px;
+  border-radius: 24px;
+  margin-right: 4px;
+  background-color: #FDC52F;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.badge_page a:hover {
+  background-color: #ffd871;
+}
